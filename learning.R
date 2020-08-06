@@ -4,7 +4,7 @@ y <- c(1,2,NA,4,5)
 y[!is.na(y)]
 good <- complete.cases(y)
 y[good]
-
+in
 #a<- matrix(1,2,3)
 #b <- matrix(4,5,6)
 #a*b is NOT matrix multiplication
@@ -31,3 +31,13 @@ dt<-dtemp[!is.na(dtemp['Solar.R']),]
 colMeans(dt['Solar.R'],) 
 colMeans(df[df['Month']==6,]['Temp'])
 max(df[df['Month']==5,]['Ozone'],na.rm = T)
+
+a <- c(1,2,3)
+b <- c(4,5)
+c(a,b)
+sample(c(a,b),3) #just from a list of 5 choose 3.
+a[c(-1,-2)]
+a[-c(1,2)]
+my<- c(4,5)
+dim(my)<-c(1,2)
+#matrices can ONLY contain ONE class of data. 
