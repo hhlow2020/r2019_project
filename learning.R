@@ -67,4 +67,12 @@ a[-c(1,2)]
 my<- c(4,5)
 dim(my)<-c(1,2)
 #matrices can ONLY contain ONE class of data. 
->>>>>>> c17210f83c827d18a98e981aae1e7259f8a07750
+mapply(rep, 1:4,4:1)
+traceback()
+sum(flags[,17])
+
+mean(iris[,'Sepal.Length'])
+apply(iris[,1:4],2,mean)
+debug(ok)
+ok()
+library(datasets)

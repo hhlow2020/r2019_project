@@ -108,3 +108,6 @@ RNGversion("3.5.1")
 set.seed(868)                
 out <- round(cr[sample(length(cr), 5)], 4)
 print(out)
+
+debug(pollutantmean)
+pollutantmean()
